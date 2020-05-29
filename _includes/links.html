@@ -1,0 +1,12 @@
+<div class="footer-links">
+  <div>
+    {% if page.prev-link %}
+    <a class="md-nav__link" href="{{page.prev-link}}">Prev: {{ page.prev-name }}</a>
+    {% endif %}
+  </div>
+  <div>
+    {% if page.next-link %}
+    <a class="md-nav__link" href="{{page.next-link}}">Next: {{ page.next-name }}</a>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,18 @@
+- title: Documentation
+  url: docs
+  links:
+    - title: "Introduction"
+      url: "docs/intro"
+    - title: "Getting Started"
+      url: "docs/getting-started"
+      children:
+        - title: Prerequisites
+          url: "docs/prerequisites"
+        - title: Setting Up RBE
+          url: "docs/setting-up-rbe"
+        - title: Setting Up Goma
+          url: "docs/setting-up-goma"
+        - title: Building Chromium with Goma
+          url: docs/building-chromium-with-goma
+    - title: "News"
+      url: "news"
